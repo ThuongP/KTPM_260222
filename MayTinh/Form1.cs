@@ -16,5 +16,14 @@ namespace MayTinh
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a =Double.Parse(txtSoA.Text);
+            double b =Double.Parse(txtSoB.Text);
+            double c = a + b;
+
+            txtKQ.Text = c.ToString();
+        }
     }
 }
