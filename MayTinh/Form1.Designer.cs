@@ -36,6 +36,7 @@
             this.txtSoB = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtKQ = new System.Windows.Forms.TextBox();
+            this.btn2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,6 +108,16 @@
             this.txtKQ.Size = new System.Drawing.Size(381, 30);
             this.txtKQ.TabIndex = 3;
             // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(493, 305);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(110, 47);
+            this.btn2.TabIndex = 1;
+            this.btn2.Text = "-";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -118,6 +129,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtSoA);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.btn2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -139,6 +151,7 @@
         private System.Windows.Forms.TextBox txtSoB;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtKQ;
+        private System.Windows.Forms.Button btn2;
     }
 }
 

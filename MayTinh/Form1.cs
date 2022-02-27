@@ -25,5 +25,14 @@ namespace MayTinh
 
             txtKQ.Text = c.ToString();
         }
+
+        private void btn2(object sender, EventArgs e)
+        {
+            double a = Double.Parse(txtSoA.Text);
+            double b = Double.Parse(txtSoB.Text);
+            double c = a - b;
+
+            txtKQ.Text = c.ToString();
+        }
     }
 }
